@@ -1,0 +1,13 @@
+.container .btn-red {
+  display: inline-block;
+  color: white;
+  background: linear-gradient(to right, rgba(220, 17, 98, 0.3), rgba(220, 17, 98, 1));
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-weight: bolder;
+  text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.container .btn-red:hover {
+  background: linear-gradient(to left, rgba(220, 17, 98, 0.3), rgba(220, 17, 98, 1));
+}
